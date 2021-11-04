@@ -6,7 +6,7 @@ a polynomial form up to a third order ( ax^3 + bx^2 + cx + d) or that can be app
 Important: the system that are considered are 1D or 2D. (An higher order can be an interesting enlargement).
 """
 import numpy as np
-import helper_fun as tmp
+import Code.helper_fun as tmp
 
 
 
