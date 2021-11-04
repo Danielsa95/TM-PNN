@@ -1,7 +1,7 @@
 import NN_structure as nn
 import numpy as np
 import matplotlib.pyplot as plt
-import helper_fun as tmp
+import Code.helper_fun as tmp
 
 
 ### Coefficients and evaluating the matrices of weights
