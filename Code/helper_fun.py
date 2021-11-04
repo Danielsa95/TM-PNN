@@ -1,5 +1,5 @@
 import numpy as np
-import weights as mn
+import Code.weights as mn
 from math import ceil
 
 # Simple function for the printing of the weights values
