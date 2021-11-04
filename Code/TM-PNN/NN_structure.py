@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import Layer
 from tensorflow.keras.layers import Activation
 from tensorflow.keras.models import Sequential
-import weights as mn
+import Code.weights as mn
 
 
 
