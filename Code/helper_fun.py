@@ -217,7 +217,7 @@ def MSE(coef,m,Tf,init):
         x = init
         for j in np.arange(dt, Tf + dt, dt):
             x +=  9.81 * dt - (dt * 0.392 * x ** 2) / m
-            sol_2[round(j/dt)-1]=x
+            sol_2[int(round(j/dt))-1]=x
         mse_2[i-1] = np.mean((sol_2 - sol_real) ** 2)
 
     return mse_1 , mse_2
