@@ -1,6 +1,6 @@
-import weights as mn
+import Code.weights as mn
 import numpy as np
-import helper_fun as tmp
+import Code.helper_fun as tmp
 import matplotlib.pyplot as plt
 
 """           #######      CHARGED PARTICLE
