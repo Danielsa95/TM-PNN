@@ -1,6 +1,6 @@
 import numpy as np
-import helper_fun as tmp
-import weights as mn
+import Code.helper_fun as tmp
+import Code.weights as mn
 import matplotlib.pyplot as plt
 """
 #  In this code there is a comparison between three solutions of the gravity fall problem :
